@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
+// @Builder主要作用就是可以提供一种方法去创建对象，即利用builder去创建对象。
 @Data
 @Builder
 @NoArgsConstructor
